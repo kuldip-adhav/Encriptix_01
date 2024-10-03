@@ -1,0 +1,151 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  body {
+    background-image: url('https://wallpapers.com/images/hd/storage-data-center-afvd8845ihsxeq3w.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #1048bf;
+  }
+  
+  header {
+    background-color: #151414;
+    color: #000000;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+  }
+  
+  section {
+    border-radius: 30px;
+    background-color: rgb(209, 209, 209);
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #pricing {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  
+  #contact {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  
+  h1 {
+    color: rgb(92, 28, 28);
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    color: #d21e6f;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    background-color: #4b4741;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+  }
+  
+  /* Responsive Styles */
+  
+  /* Tablet and Desktop */
+  @media (min-width: 768px) {
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    section {
+      flex-basis: 50%;
+    }
+  }
+  
+  /* Mobile */
+  @media (max-width: 767px) {
+    main {
+      padding: 1em;
+    }
+    section {
+      margin-bottom: 10px;
+    }
+    header nav ul {
+      flex-direction: column;
+    }
+    header nav li {
+      margin-right: 0;
+    }
+    header nav a {
+      padding: 10px;
+    }
+  }
